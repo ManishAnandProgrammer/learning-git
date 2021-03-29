@@ -49,6 +49,31 @@ Step 5: Remove Files From staging
 		-----------> For Remove All Files At Once <----------
 		git rm -r --cached .
 
+		---------> Another Way[After First Commit] <------------
+		git restore --staged .
+
+Step 6: Git Commit
+	-> After adding files to the staging are now we can 
+		create a commit of it.
+
+		git commit -m "Your Message About This Commit"
+
+
+
+Stpe 7: Git Log
+	-> To see git commits
+	git log
+
+	-> To see commit in full details
+	git show [hash given by git log command]
+
+
+Stpe 8: Check differnce before adding file to staging
+	-> git diff
+
+
+
+
 
 
 
