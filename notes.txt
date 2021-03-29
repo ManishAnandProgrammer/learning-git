@@ -1,0 +1,61 @@
+
+Step 1: Optional - Only for first time users
+	git config --global user.name "John Doe"
+	git config --global user.email johndoe@example.com
+	
+Step 2: initialize repository
+	git init
+	
+	-> This is going to create a .git folder inside directory
+		can be seen by: 
+			*  ls -a
+		command
+
+Step 3: Git Status
+	-> after adding new files in the folder we should check the status
+		of our repository.
+
+		git status
+
+		this command will show us the files that need to add, if all 
+		files are added already that we can proceed to push it.
+
+Step 4: Git Add files
+	-> after checking status of files which need to add in repo,
+		we have to follow the command
+
+		----> For Files Seprately <-----
+		git add [file Name] [file Name]
+
+		----> If you want to add all files at once <-----
+
+		git add .
+
+	-> By Default "git add ." command is going to add all 
+		files from current folder. if we want to add all files from 
+		current folder and also from parent folder than we have to use
+		below command : 
+
+		git add -A
+
+Step 5: Remove Files From staging
+	-> if we mistakely added some files to the repo than we can 
+		remove it by
+
+		-----------> For Files Seprately <----------
+		git rm --cached [File Name] [File Name]
+
+
+		-----------> For Remove All Files At Once <----------
+		git rm -r --cached .
+
+
+
+
+
+
+
+	
+	
+	
+		
