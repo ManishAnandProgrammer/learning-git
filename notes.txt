@@ -82,7 +82,11 @@ Step 9: Restore commands
 		// for all files
 		git restore .
 
+Step 10: Change Git Commit Message
 
+	git commit --amend -m "[New Message]"
+
+	
 
 
 
