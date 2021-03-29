@@ -71,6 +71,19 @@ Stpe 7: Git Log
 Stpe 8: Check differnce before adding file to staging
 	-> git diff
 
+Step 9: Restore commands
+	-> it can happen that we don't want latest changes
+		and want to go back to the previous version than we can
+		restore that: 
+
+		// for single file
+		git restore [fileName]
+
+		// for all files
+		git restore .
+
+
+
 
 
 
