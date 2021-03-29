@@ -86,8 +86,16 @@ Step 10: Change Git Commit Message
 
 	git commit --amend -m "[New Message]"
 
-	
 
+--------------------Push------------------------------
+
+git remote add origin https://github.com/ManishAnandProgrammer/learning-git.git
+
+git branch -M main
+
+--------------------Pull------------------------------
+
+git pull
 
 
 
